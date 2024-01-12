@@ -1,4 +1,4 @@
-CREATE TABLE task (
+CREATE TABLE Task (
 task_code INT(7) NOT NULL AUTO_INCREMENT,
 task_name VARCHAR(20) NOT NULL,
 task_detail VARCHAR(1000) NOT NULL,
