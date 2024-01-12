@@ -6,6 +6,3 @@
     <title>Todoリスト</title>
 </head>
 <body>
-    開発中
-</body>
-</html>
