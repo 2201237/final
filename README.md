@@ -8,4 +8,4 @@
 
 システム名：Todoリスト
 
-URL：https://aso2201237.mond.jp/final/src/task-list.html
+URL：https://aso2201237.mond.jp/final/src/task-list.php
