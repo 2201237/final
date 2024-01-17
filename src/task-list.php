@@ -32,6 +32,7 @@
             echo '<td><a href="task-delete.php?task_code=',$row['task_code'],'">削除</a></td>';
             echo '</tr>';
         }
+        echo '</table>';
     }else{
         $sql=$pdo->query('select * from Task order by task_starttime IS NULL ASC , task_starttime , task_code');
         echo '<table><tr><td>タスク名</td><td>タスク詳細</td><td>開始時刻</td><td></td><td></td></tr>';
@@ -44,6 +45,7 @@
             echo '<td><a href="task-delete.php?task_code=',$row['task_code'],'">削除</a></td>';
             echo '</tr>';
         }
+        echo '</table>';
     }
 ?>
 <script src="js/jquery-3.7.1.min.js"></script>
